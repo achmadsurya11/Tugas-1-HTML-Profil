@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Web Profil</title>
+    </head>
+    <body>
+        
+        <!-- Section 1: Menu -->
+         <table border="0" width="50%" align="left">
+            <td align="left"><a href="#Profil">Profil</a></td>
+         </table>
+         <table border="0" width="50%" align="right">
+            <tr>
+                <td align="right"><a href="#tentang">Tentang</a></td>
+                <td align="right"><a href="#biodata">Biodata</a></td>
+                <td align="right"><a href="#portofolio">Portofolio</a></td>
+            </tr>
+         </table>
+          <table border="1"width=100%></table>
+
+         <br>
+
+         <!-- Section 2: Judul di kiri dan gambar dikanan-->
+          <table border="0" width="100%" id="Section2">
+            <tr>
+               <td width="50%" align="left" valign="top">
+                <h1>Selamat Datang di Website Saya.</h1>
+                <p>Ini adalah contoh header dengan dua kolom seperti ini.</p>
+                <button>Pelajari lebih lanjut</button>
+               </td>
+               <td width="50%" align="center" valign="middle">
+                <img src="Pas fotto.jpg" alt="Gambar">
+               </td>
+            </tr>
+          </table>
+          <table border="1"width=100%></table>
+          
+          <br>
+
+          <!-- Section 3: Biodata dengan 6 box-->
+           <table border="0" width="100%"</table>
+           <tr> 
+                <td colspan="3" align="center">
+                    <h2> About Me</h2>
+                    <p>A brief introduction about myself</p>
+                </td>
+            </tr>
+            
+           <table border="1" width="100%" id="Section3">
+            <tr>
+                <td align="center"name>Surya</td>
+                <td align="center"Study>Maba</td>
+                <td align="center"Work>Nope...</td>
+            </tr>
+            <tr>
+                <td align="center"Contact>085......</td>
+                <td align="center"Hobi>Memasak</td>
+                <td align="center"alamat>Blitar....</td>
+            </tr>
+           </table>
+
+           <table border="1"width=100%></table>
+
+           <br>
+           
+           <!--Section 4: Portofolio-->
+           <table border="0" width="100%" id="section4"
+           <tr>
+            <td colspan="3" align="center">
+                <h2>Portofolio</h2>
+            </td>
+           </tr>
+
+           <table border="1" width="100%" id="section4"
+           <tr>
+           <td align="center" valign="top">
+            <img src="img/project1.png" alt="projek">
+            <h5>Project 1</h5>
+            <p>Deskripsi</p>
+           </td>
+           <td align="center" valign="top">
+            <img src="img/project1.png" alt="projek">
+            <h5>Project 2</h5>
+            <p>Deskripsi</p>
+           </td>
+           <td align="center" valign="top">
+            <img src="img/project1.png" alt="projek">
+            <h5>Project 3</h5>
+            <p>Deskripsi</p>
+           </td>
+           </tr>
+
+        </table>
+        <table border="1"width=100%></table>
+
+    </body>
+</html>
+
