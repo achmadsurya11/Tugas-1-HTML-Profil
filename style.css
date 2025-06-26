@@ -1,0 +1,126 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Segoe UI', sans-serif;
+    background:#f0f4f8;
+    color:#333;
+}
+
+header {
+    background-color:#007bff;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.brand {
+    position: relative;
+    margin: 1px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 40px 60px;
+    background: color #e3f2fd;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 230px
+}
+
+.about {
+  padding: 40px 60px;
+  background-color:powderblue;
+  text-align: center;
+}
+
+.grid-biodata {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+.grid-biodata {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-biodata div {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff9c4;
+  box-shadow: 3px 3px 6px;  
+}
+
+.label {
+    font-weight: bold;
+    color:blue;
+    text-shadow: yellow 2px 2px 4px;
+}
+
+.portofolio {
+    text-align: center;
+    background-color:#f0f0f0;
+    padding: 40px 60px;
+}
+
+.grid-portofolio {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+.grid-portofolio {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project {
+    background-color:#fff9c4 ;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.project img {
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
